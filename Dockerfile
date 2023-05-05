@@ -1,4 +1,5 @@
-FROM tomcat:8.5.31-jre8
+# FROM tomcat:8.5.31-jre8
+FROM fabric8/tomcat-7:latest
 EXPOSE 8080
 RUN mkdir -p /build
 WORKDIR /build
